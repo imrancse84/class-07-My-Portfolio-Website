@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;900&display=swap');
+
+*{
+	margin: 0;
+
+	box-sizing: border-box;	
+
+}
+
+body{
+	font-family: 'Roboto', sans-serif;
+}
+
+
+.image{
+    border-bottom: 2px solid #33333336;
+}
+.image img{
+    display: block;
+    margin: auto;
+    width: 200px;
+}
+
+ma{
+	max-width: 100%;
+	display:block;
+}
+.blog-section{
+	padding: 100px 0;
+
+}
+.container{
+	width: 1200px;
+	margin: auto;
+	overflow: hidden;
+	}
+.col{
+	width:25%;
+	float: left;
+	padding: 12px;
+
+}
+article{
+	background:#a3ccb96e;
+	box-shadow: 5px 5px 10px #f0f0f0, -5px -5px 10px #ffffff;
+	border-radius: 10px;
+	overflow: hidden;
+	transition-duration: 0.3s;
+}
+.container:hover article{
+	box-shadow: 0 0 0 #f0f0f0, 0 0 0 #ffffff;
+	opacity: 0.4;
+}
+.container:hover article:hover{
+	 box-shadow: 5px 5px 10px #f0f0f0, -5px -5px 10px #ffffff;
+	 opacity: 1;
+
+}
+article img{
+	height: 160px;
+	object-fit: cover;
+	width: 100%;
+}
+article h2{
+	font-size: 22px;
+	font-weight: 400;
+	margin: 10px 0;
+	color: #333;
+	padding-left: 15px;
+}
+article p{
+	font-size: 18px;
+	font-weight: 300;
+	line-height: 1.5;
+	color: #000000;
+	margin-bottom: 10px;
+	padding-left: 15px;
+}
+.readmore{
+	color: #333;
+	text-decoration: none;
+	text-transform: capitalize;
+	border:1px solid #333;
+	padding: 8px 15px;
+	display: inline-block;
+	border-radius: 30px;
+	background:#b9798b3d;
+	transition-duration: 0.3s;
+	margin: 25px;
+}
+
+.readmore:hover{
+	color: #fff;
+	background-color: #333;
+}
+.padding{
+	padding: 0px;
+}
+
+footer{
+    background-color: #F5F5FA;
+    padding-top: 100px;
+}
+
+
+.foot{
+	padding: 30px 0;
+	background: #7f56f5;
+	text-align: center;
+}
+.foot p{
+	color: #ffffff;
+	font-size: 14px;
+}
+.foot p a{
+	padding: 0 5px;
+	color: #000000;
+	text-transform: uppercase;
+	text-decoration: none;
+	letter-spacing: 3px;
+	font-weight: 600;
+}
+
+.social{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	flex-direction: column;
+	position: fixed;
+	left: 2px;
+	bottom: 50%;
+	transform: translateY(50%);
+}
+.social li{
+	list-style: none;
+
+}
+.social li a{
+	background: #7f56f5;
+	color: #fff;
+	text-decoration: none;
+	padding: 15px;
+	margin: 2px;
+	display: inline-block;
+	border:2px solid #7f56f5;
+}
+.social li a:hover{
+	background: transparent;
+	color: #7f56f5;
+	border:2px solid #7f56f5;
+}
